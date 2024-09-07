@@ -1,0 +1,17 @@
+{
+    "pomodoro": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 0
+    },
+    "study": {
+        "hours": 1,
+        "minutes": 30,
+        "seconds": 0
+    },
+    "pomodoro_break": {
+	"hours": 0,
+	"minutes": 5,
+	"seconds": 0
+    }
+}
