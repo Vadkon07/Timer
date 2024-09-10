@@ -35,7 +35,11 @@ if ask == '1':
     time.sleep(1)
     end_sound = pygame.mixer.Sound('end.wav')
     print("Time's up!")
-    end_sound.play()
+    end_sound.play(loops=-5)
+
+   # while True:
+    #    pass       #UNCOMMENT TO LOOP A SOUND
+
     pygame.time.wait(int(end_sound.get_length() * 1000))
 
 elif ask == '2':
