@@ -8,7 +8,11 @@ os.system("clear")
 
 print("Welcome to the Simple Timer!\n")
 
-ask = input("Enter '1' to run a normal timer, enter '2' to run a Pomodoro timer, enter '3' to run presets menu: ")
+print("Enter '1' to run a normal timer")
+print("Enter '2' to run a Pomodoro timer")
+print("Enter '3' to open presets menu")
+
+ask = input("Your choice: ")
 
 def cntdw(h, m, s):
     full_seconds = h * 3600 + m * 60 + s
